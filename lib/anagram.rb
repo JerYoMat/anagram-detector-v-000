@@ -8,7 +8,7 @@ class Anagram
     @string_to_check = string 
   end 
   
-  def parse 
+  def match 
     array = @string_to_check.split
     binding.pry 
   end 
