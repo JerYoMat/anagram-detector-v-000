@@ -6,7 +6,7 @@ class Anagram
   
   def initialize(string)
     @word_being_matched_against = string 
-    @comparison_control = string.split.sort
+    @comparison_control = string.split("").sort
     binding.pry 
   end 
 
