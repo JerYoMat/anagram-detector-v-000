@@ -12,11 +12,7 @@ class Anagram
   
   def match(list_of_words)
     individual_words = list_of_words.split(" ")
-    individual_words.each do |word|
-      word.sort 
-      binding.pry 
-    end 
-   
+     binding.pry 
   end 
   
 end 
