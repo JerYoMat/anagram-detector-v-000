@@ -14,8 +14,9 @@ class Anagram
      matches = []
      array_of_words.each do |word|
        word.sort 
+     binding.pry
      end 
-     binding.pry 
+ 
   end 
   
 end 
