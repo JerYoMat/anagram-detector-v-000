@@ -2,15 +2,16 @@
 require 'pry'
 
 class Anagram
-  attr_accessor :string_to_check
+  attr_accessor :word_being_matched_against, :comparison_control
   
-
+  def initialize(string)
+    :word_being_matched_against = string 
+    :comparison_control = string.split.sort
+    binding.pry 
+  end 
 
   
   def match(string)
-    array = @string_to_check.split
-    binding.pry 
   end 
-  
   
 end 
