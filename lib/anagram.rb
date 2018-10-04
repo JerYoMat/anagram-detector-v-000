@@ -13,8 +13,11 @@ class Anagram
   def match(array_of_words)
      matches = []
      array_of_words.each do |word|
-       word
-     binding.pry
+       comparison_check = word.split("").sort 
+       if comparison_check == @comparison_control
+          matches << comparison_check.join("") 
+       else 
+       end 
      end 
  
   end 
