@@ -10,8 +10,10 @@ class Anagram
   end 
 
   
-  def match(list_of_words)
-    individual_words = list_of_words.split(" ")
+  def match(array_of_words)
+     array_of_words.each do |word|
+       
+     end 
      binding.pry 
   end 
   
