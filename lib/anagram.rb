@@ -7,11 +7,16 @@ class Anagram
   def initialize(string)
     @word_being_matched_against = string 
     @comparison_control = string.split("").sort
-    binding.pry 
   end 
 
   
-  def match(string)
+  def match(list_of_words)
+    individual_words = list_of_words.split(" ")
+    individual_words.each do |word|
+      word.sort 
+      binding.pry 
+    end 
+    binding.pry 
   end 
   
 end 
