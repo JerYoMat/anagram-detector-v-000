@@ -16,7 +16,7 @@ class Anagram
       word.sort 
       binding.pry 
     end 
-    binding.pry 
+   
   end 
   
 end 
